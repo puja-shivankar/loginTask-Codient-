@@ -1,0 +1,31 @@
+.main {
+  height: 600px;
+  padding: 3rem;
+  overflow: clip;
+}
+
+.main-card {
+  width: 450px;
+  height: 480px;
+  margin-top: 30px;
+}
+#LogoBtn {
+  color: black;
+}
+p {
+  text-align: left;
+  color: red;
+  margin-left: 20px;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.alert_info {
+  background-color: rgb(35, 140, 84);
+  border: 2px solid rgb(35, 140, 84);
+}

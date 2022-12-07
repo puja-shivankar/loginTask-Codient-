@@ -1,0 +1,36 @@
+.main {
+  height: 600px;
+  padding: 3rem;
+  overflow: clip;
+}
+@media(max-width: 998px){
+  .card-body {
+    width: 40%;
+    height: 300px !important;
+    margin-top: 30px;
+    border-radius: 12px !important;
+  }
+}
+@media(min-width: 392px){
+  .card-body {
+    width: 20%;
+    height: 200px !important;
+    margin-top: 30px;
+    border-radius: 12px !important;
+    /* background-color: brown; */
+  }
+}
+.card-body {
+  width: 40%;
+  height: 400px !important;
+  margin-top: 30px;
+  border-radius: 12px !important;
+}
+#LogoBtn {
+  color: black;
+}
+p {
+  text-align: left;
+  color: red;
+  margin-left: 20px;
+}

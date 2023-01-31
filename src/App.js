@@ -6,12 +6,15 @@ import { Dashboard } from './pages/dashboard/Dashboard';
 import { SignUp } from './pages/sign-UP/SignUp';
 import { Footer } from './layouts/footer/Footer';
 import { Routing } from './routes/routing';
+import Form from './Form';
 
 function App() {
+  
   
   return (
     <div class="App">
       <Routing></Routing>
+     
     </div>
   );
 }
